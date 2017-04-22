@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dank meme</title>
+
+</head>
+
+
+<body>
+<body onload="startTime()">
+
+	
+
+	<p align="center">mad by Bryce Robinson
+<p align="down"> what some danke memes</p>
+
+
+<button onclick="myFunction()">Try it</button>
+<button onclick="mystop()">Reload page</button>
+<p id="demo"></p>
+
+<script>
+function  mystop(){
+ location.reload();
+ 
+}
+function myFunction() {
+
+ 
+	var myAudio = new Audio("I am the one the oneFULL SONGYouTube.mp3");
+    var myAudio1 = new Audio("Thomas - the.mp3");
+	var myAudio2 = new Audio("dat - boi!!!!.mp3");
+	var myAudio3 = new Audio("You - reposted.mp3");
+	var myAudio4 = new Audio("Modern Warfare 2 - Tactical Nuke Sound.mp3");
+	var myAudio5 = new Audio("Mission - Failed.mp3");
+	var myAudio6 = new Audio("Harlem Shake - Full Song.mp3");
+	var myAudio7 = new Audio("Overwatch McCrees Ultimate - Its high noon Sound Effect.mp3");
+	var myAudio8 = new Audio("Jurassic - Park.mp3");
+	var myAudio9 = new Audio("HEYYEYAAEYAAAEYAEYAA.mp3");
+    var x = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("demo").innerHTML = x;
+	var greeting;
+    
+	if (x <= 1) {
+        greeting = "O shit what up";
+		  myAudio2.play();
+		var y = document.createElement("IMG");
+         y.setAttribute("src", "https://media.giphy.com/media/UHKL9BtyM4WrK/giphy.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "dat boi");
+         document.body.appendChild(y); 
+       
+		  
+    } else if (x <= 2) {
+	greeting = "Ohhh";
+	 myAudio.play();
+	 var y = document.createElement("IMG");
+         y.setAttribute("src", "giphy.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "flip");
+         document.body.appendChild(y); 
+	 
+	  } else if (x <= 3){
+        greeting = "420";
+		myAudio1.play();
+	    var y = document.createElement("IMG");
+         y.setAttribute("src", "train.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "train");
+         document.body.appendChild(y); 
+	 
+		
+    } else if (x <= 4){
+        greeting = "your in the wrong neighborhood ";
+            myAudio3.play();
+			var y = document.createElement("IMG");
+         y.setAttribute("src", "you_came_to_the_wrong_neighborhood____by_quartrguy-d83zw08.png");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 5){
+	 greeting = "goodbay";
+	  myAudio4.play()
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "Nuke.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 6){
+	  myAudio5.play()
+	  greeting = "mission failed";
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "mf.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 7){
+	  myAudio6.play()
+	   greeting = "do the harlem shake";
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "shake.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 8){
+	  myAudio7.play()
+	 greeting = "what time is it?";
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "it hiii.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 9){
+	  myAudio8.play()
+	  greeting = "jurassic fart";
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "kazoo.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}else if (x <= 10){
+	  myAudio9.play()
+	  greeting = "hayhayhayhay";
+	  var y = document.createElement("IMG");
+         y.setAttribute("src", "hay.gif");
+         y.setAttribute("width", "304");
+         y.setAttribute("height", "228");
+         y.setAttribute("alt", "wrong");
+         document.body.appendChild(y); 
+	}
+document.getElementById("demo").innerHTML = greeting;
+
+}
+	
+	
+	
+</script>
+</body>
+</html>
